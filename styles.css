@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+  
+  .sidebar {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .sidebar a {
+    background-color: rgb(220, 255, 204);
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(167, 255, 156);
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+ 
+
+
+#bg {
+  background-image: url(katmohammed.png);
+background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 350px;
+ box-shadow: 0 5px 25px rgb(72, 164, 29);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 300px;
+ margin-top: 00px;
+}
+
+#bgtext {
+  background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 70px;
+ box-shadow: 0 5px 25px rgb(72, 164, 29);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 300px;
+ margin-top: -100px;
+}
+
+#bgg {
+  background-image: url(valorant.jpg);
+  background-size: 100%;
+background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 250px;
+ box-shadow: 0 5px 25px rgb(252, 84, 84);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 300px;
+ margin-top: 00px;
+}
+
+#bggtext {
+  background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 70px;
+ box-shadow: 0 5px 25px rgb(252, 84, 84);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 300px;
+ margin-top: -60px;
+}
+
+#bgg2 {
+  background-image: url(warframe.png);
+  background-size: 100%;
+background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 210px;
+ box-shadow: 0 5px 25px rgb(84, 207, 252);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 550px;
+ margin-top: -360px;
+}
+
+#bggtext2 {
+  background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 70px;
+ box-shadow: 0 5px 25px rgb(84, 207, 252);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 550px;
+ margin-top: -60px;
+}
+#bgh {
+  background-image: url(wandelen.jpg);
+  background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 250px;
+ box-shadow: 0 5px 25px rgb(72, 164, 29);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 500px;
+ margin-top: 00px;
+ text-align: center;
+}
+
+#bghtext {
+  background-color: rgb(255, 255, 255);
+ width: 25.25em;
+ height: 50px;
+ box-shadow: 0 5px 25px rgb(72, 164, 29);
+ border-radius: 10px;
+ padding: 25px;
+ margin: 50px;
+ transition: 0.7s ease;
+ margin-left: 500px;
+ margin-top: -60px;
+ text-align: center;
+}
+
+#t{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+#t samp{
+    color: #006233;
+    font-size: 2em;
+}
+
+#foto{
+    text-align: center;
+    border-radius: 50px;
+}
+
+#fotodiv {
+    text-align: center;
+}
+
+#myvideo {
+  position: fixed;
+  z-index: -1;
+}
